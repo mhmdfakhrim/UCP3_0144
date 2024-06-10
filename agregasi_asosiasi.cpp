@@ -59,8 +59,8 @@ void Proyek::cetakKaryawan() {
 int main() {
 	Proyek* varProyek1 = new Proyek("Sistem Informasi");
 	Proyek* varProyek2 = new Proyek("Sistem Keamanan");
-	Karyawan* varKaryawan1 = new Karyawan("Andi");
-	Karyawan* varKaryawan2 = new Karyawan("Lia");
+	Karyawan* varKaryawan1 = new Karyawan("Fachri");
+	Karyawan* varKaryawan2 = new Karyawan("Ryan");
 
 	varProyek1->tambahKaryawan(varKaryawan1);
 	varProyek1->tambahKaryawan(varKaryawan2);
